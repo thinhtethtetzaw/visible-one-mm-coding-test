@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Web Designer & Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-brand">
+          <img src="assets/logo.svg" alt="logo" width="44" height="44" />
+          <h4>znisa</h4>
+        </div>
+        <ul class="nav-menu">
+          <li>
+            <a href="#home" class="nav-link nav-icon"
+              ><img
+                src="assets/icons/home-icon.svg"
+                alt="home"
+                width="20"
+                height="20"
+            /></a>
+          </li>
+          <li><a href="#process" class="nav-link nav-text">Process</a></li>
+          <li><a href="#projects" class="nav-link nav-text">Projects</a></li>
+          <li><a href="#contact" class="nav-link nav-text">Contact me</a></li>
+        </ul>
+        <div class="nav-cta">
+          <button class="btn-primary">Hire me</button>
+          <button class="btn-primary profile">
+            <img
+              src="assets/icons/user-icon.svg"
+              alt="user"
+              width="20"
+              height="20"
+            />
+          </button>
+        </div>
+        <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+      <div class="container">
+        <div class="hero">
+          <div class="hero-content">
+            <h1 class="hero-title">I design and build clean websites</h1>
+            <p class="hero-description">
+              Write anything here something about yourself to<br />
+              showcase what actually you doing or targeting etc.
+            </p>
+            <button class="btn-primary">Hire me</button>
+          </div>
+          <div class="hero-decorations">
+            <img
+              src="assets/icons/single-sparkle.svg"
+              alt="hero-decorations"
+              width="31"
+              height="31"
+            />
+            <img
+              src="assets/icons/single-sparkle.svg"
+              alt="hero-decorations"
+              width="31"
+              height="31"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <span class="tool-name">Framer</span>
+        <img
+          src="assets/icons/star.svg"
+          alt="separator"
+          width="24"
+          height="24"
+          class="separator-sparkle"
+        />
+        <span class="tool-name">Webflow</span>
+        <img
+          src="assets/icons/star.svg"
+          alt="separator"
+          class="separator-sparkle"
+          width="24"
+          height="24"
+        />
+        <span class="tool-name">Figma</span>
+        <img
+          src="assets/icons/star.svg"
+          alt="separator"
+          class="separator-sparkle"
+          width="24"
+          height="24"
+        />
+        <span class="tool-name">Notion</span>
+        <img
+          src="assets/icons/star.svg"
+          alt="separator"
+          class="separator-sparkle"
+          width="24"
+          height="24"
+        />
+      </div>
+    </section>
+
+    <!-- Design Process Section -->
+    <section id="process" class="process">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My process to design</h2>
+          <img
+            src="assets/icons/double-sparkle.svg"
+            alt="double-sparkle"
+            width="36"
+            height="36"
+          />
+        </div>
+        <div class="process-content">
+          <div class="process-layout">
+            <!-- Step Numbers Column -->
+            <div class="step-numbers-column">
+              <div class="step-number">1</div>
+              <div class="step-one-connector"></div>
+              <div class="step-number">2</div>
+              <div class="step-two-connector"></div>
+              <div class="step-number">3</div>
+            </div>
+
+            <!-- Content Column -->
+            <div class="step-contents-column">
+              <!-- Step 1 Content -->
+              <div class="step-content">
+                <img
+                  src="assets/icons/right-open-circle.svg"
+                  alt="research icon"
+                  width="56"
+                  height="56"
+                  class="step-icon"
+                />
+                <p class="step-title">Step 1: Product design Research</p>
+                <p class="step-description">
+                  This initial step involves a systematic and thorough<br />
+                  exploration of the market landscape, user needs, and
+                  existing<br />
+                  solutions.
+                </p>
+                <button class="btn-secondary">See Examples</button>
+              </div>
+
+              <!-- Step 2 Content -->
+              <div class="step-content">
+                <img
+                  src="assets/icons/bottom-open-circle.svg"
+                  alt="design icon"
+                  width="56"
+                  height="56"
+                  class="step-icon"
+                />
+                <p class="step-title">Step 2: UI design in figma</p>
+                <p class="step-description">
+                  This initial step involves a systematic and thorough<br />
+                  exploration of the market landscape, user needs, and
+                  existing<br />
+                  solutions.
+                </p>
+              </div>
+
+              <!-- Step 3 Content -->
+              <div class="step-content">
+                <img
+                  src="assets/icons/left-open-circle.svg"
+                  alt="development icon"
+                  width="56"
+                  height="56"
+                  class="step-icon"
+                />
+                <p class="step-title">Step 3: No-code develop in webflow</p>
+                <p class="step-description">
+                  This initial step involves a systematic and thorough<br />
+                  exploration of the market landscape, user needs, and
+                  existing<br />
+                  solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Some Featured projects</h2>
+          <img
+            src="assets/icons/double-sparkle.svg"
+            alt="double-sparkle"
+            width="36"
+            height="36"
+          />
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image project-gradient-1"></div>
+            <div class="project-info">
+              <img
+                src="assets/proj-one.png"
+                alt="project-1"
+                width="53"
+                height="53"
+              />
+              <h3 class="project-title">Project Name</h3>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image project-gradient-2"></div>
+            <div class="project-info">
+              <img
+                src="assets/proj-two.png"
+                alt="project-2"
+                width="53"
+                height="53"
+              />
+              <h3 class="project-title">Project Name</h3>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image project-gradient-1"></div>
+            <div class="project-info">
+              <img
+                src="assets/proj-three.png"
+                alt="project-3"
+                width="53"
+                height="53"
+              />
+              <h3 class="project-title">Project Name</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Client testimonials</h2>
+          <img
+            src="assets/icons/double-sparkle.svg"
+            alt="double-sparkle"
+            width="36"
+            height="36"
+          />
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-border">
+              <div class="testimonial-content">
+                <div class="testimonial-header">
+                  <div class="client-info">
+                    <div class="client-avatar"></div>
+                    <div class="client-details">
+                      <h4 class="client-name">Client Name .</h4>
+                      <p class="client-title">Product designer</p>
+                    </div>
+                  </div>
+                  <img
+                    src="assets/icons/quote.svg"
+                    alt="quote-icon"
+                    width="43"
+                    height="31"
+                  />
+                </div>
+                <p class="testimonial-text">
+                  s simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  since the
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-border">
+              <div class="testimonial-content">
+                <div class="testimonial-header">
+                  <div class="client-info">
+                    <div class="client-avatar"></div>
+                    <div class="client-details">
+                      <h4 class="client-name">Client Name .</h4>
+                      <p class="client-title">Product designer</p>
+                    </div>
+                  </div>
+                  <img
+                    src="assets/icons/quote.svg"
+                    alt="quote-icon"
+                    width="43"
+                    height="31"
+                  />
+                </div>
+                <p class="testimonial-text">
+                  s simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  since the
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-border">
+              <div class="testimonial-content">
+                <div class="testimonial-header">
+                  <div class="client-info">
+                    <div class="client-avatar"></div>
+                    <div class="client-details">
+                      <h4 class="client-name">Client Name .</h4>
+                      <p class="client-title">Product designer</p>
+                    </div>
+                  </div>
+                  <img
+                    src="assets/icons/quote.svg"
+                    alt="quote-icon"
+                    width="43"
+                    height="31"
+                  />
+                </div>
+                <p class="testimonial-text">
+                  s simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  since the
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-border">
+              <div class="testimonial-content">
+                <div class="testimonial-header">
+                  <div class="client-info">
+                    <div class="client-avatar"></div>
+                    <div class="client-details">
+                      <h4 class="client-name">Client Name .</h4>
+                      <p class="client-title">Product designer</p>
+                    </div>
+                  </div>
+                  <img
+                    src="assets/icons/quote.svg"
+                    alt="quote-icon"
+                    width="43"
+                    height="31"
+                  />
+                </div>
+                <p class="testimonial-text">
+                  s simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  since the
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Send Message Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div>
+          <div class="section-header">
+            <h2 class="section-title">Have idea about project?</h2>
+            <img
+              src="assets/icons/double-sparkle.svg"
+              alt="double-sparkle"
+              width="36"
+              height="36"
+            />
+          </div>
+          <div class="contact-content">
+            <div class="contact-info">
+              <p class="contact-description">
+                Write anything here something about yourself to<br />
+                showcase what actually you doing or targeting etc.
+              </p>
+              <button class="btn-primary">Send us a message</button>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/bottom-grid.svg"
+          alt="contact-image"
+          width="392"
+          height="392"
+        />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <nav class="nav">
+        <div class="nav-brand">
+          <img src="assets/logo.svg" alt="logo" width="44" height="44" />
+          <h4>znisa</h4>
+        </div>
+        <ul class="nav-menu">
+          <li>
+            <a href="https://x.com" class="nav-link nav-icon"
+              ><img
+                src="assets/icons/x-icon.svg"
+                alt="home"
+                width="20"
+                height="20"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.google.com" class="nav-link nav-icon"
+              ><img
+                src="assets/icons/web-icon.svg"
+                alt="home"
+                width="20"
+                height="20"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" class="nav-link nav-icon"
+              ><img
+                src="assets/icons/ig-icon.svg"
+                alt="home"
+                width="20"
+                height="20"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com" class="nav-link nav-icon"
+              ><img
+                src="assets/icons/fb-icon.svg"
+                alt="home"
+                width="20"
+                height="20"
+            /></a>
+          </li>
+        </ul>
+        <div class="nav-cta">
+          <button class="btn-primary">Hire me</button>
+          <button class="btn-primary profile">
+            <img
+              src="assets/icons/user-icon.svg"
+              alt="user"
+              width="20"
+              height="20"
+            />
+          </button>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
